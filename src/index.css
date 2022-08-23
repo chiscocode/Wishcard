@@ -1,0 +1,95 @@
+body .main {
+width: 100vw;
+height: 100vh;
+overflow-y: hidden;
+
+}
+#light {
+    background-color: #f3ebf6;
+    background-size: cover no-repeat;
+}
+
+#light .pato{
+    background-color: #f3ebf6;
+    background-size: cover no-repeat;
+}
+
+#dark {
+    background-color: rgb(6, 2, 48);
+    background-size: cover no-repeat;
+}
+
+#dark .pato{
+    background-color: rgb(6, 2, 48);
+    background-size: cover no-repeat;
+    color: #fff;
+}
+.switch {
+    display: flex;
+    width: 100vw;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .switch label {
+    margin: 10px;
+  }
+  
+  #light .switch label {
+    color: black;
+  }
+  
+  #dark .switch label {
+    color: white;
+  }
+  
+.text-purple{
+  color: #582b95 !important;
+}
+.btn-purple{
+  background: #582b95 !important;
+  color: #fff !important;
+}
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.bg-purple{
+  background-color:#582b95 !important;
+
+}
+.bg{
+  background-color:#582b95;
+  min-height: 350px !important;
+}
+
+
+@media (min-width:0px) and (max-width:1200px) {
+  .hero, .side{
+    display: none;
+  }
+  .center{
+    text-align: center;
+  }
+  .center-block {
+    display: none;
+  }
+  .about-pic{
+   max-height: 100px;
+   min-width: 50vw;
+   overflow: hidden;
+   margin-left: auto;
+  margin-right: auto;
+  }
+  
+}
+
