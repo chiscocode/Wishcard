@@ -1,0 +1,56 @@
+[debug] [2022-08-23T07:00:36.576Z] ----------------------------------------------------------------------
+[debug] [2022-08-23T07:00:36.584Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\patrick\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-08-23T07:00:36.586Z] CLI Version:   11.8.0
+[debug] [2022-08-23T07:00:36.586Z] Platform:      win32
+[debug] [2022-08-23T07:00:36.587Z] Node Version:  v18.4.0
+[debug] [2022-08-23T07:00:36.777Z] Time:          Tue Aug 23 2022 08:00:36 GMT+0100 (West Africa Standard Time)
+[debug] [2022-08-23T07:00:36.778Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-08-23T07:00:36.988Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-08-23T07:00:36.988Z] > authorizing via signed-in user (patrickchukwudifu716@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\patrick\Desktop\wishlist
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-08-23T07:00:48.317Z] Using project from CLI flag: wishcard-87eb4
+[debug] [2022-08-23T07:00:48.320Z] > refreshing access token with scopes: []
+[debug] [2022-08-23T07:00:48.324Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-08-23T07:00:48.324Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-08-23T07:00:53.089Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2022-08-23T07:00:53.089Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-08-23T07:00:53.182Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/wishcard-87eb4 [none]
+[debug] [2022-08-23T07:00:56.513Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/wishcard-87eb4 200
+[debug] [2022-08-23T07:00:56.514Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/wishcard-87eb4 {"projectId":"wishcard-87eb4","projectNumber":"443516060647","displayName":"Wishcard","name":"projects/wishcard-87eb4","resources":{"hostingSite":"wishcard-87eb4","storageBucket":"wishcard-87eb4.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_74c6b6ce-932b-414a-8266-e5dc3a87cf9c"}
+[info] i  Using project wishcard-87eb4 (Wishcard) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2022-08-23T07:01:04.970Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-08-23T07:02:32.230Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\patrick\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+[error] 
+[error] Error: An unexpected error has occurred.
